@@ -14,20 +14,9 @@ def summon_captain_planet(planeteer_calls)
 end
 
 
-words = []
+##words = []
 def long_planeteer_calls(words)
-  i = 0
-  wordd = []
-  while i < words.length 
-  wordd << yield
-  i += 1
-  if wordd.include?(false)
-    false 
-  else
-    true 
-  end
-  wordd
-end
+  
 end
 
 def find_the_cheese# code an argument here
