@@ -19,7 +19,7 @@ def long_planeteer_calls(words)
   i = 0
   wordd = []
   while i < words.length 
-  wordd << yield
+  wordd << yield(words)
   i += 1
   if wordd.include?(false)
     false 
