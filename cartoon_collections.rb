@@ -17,12 +17,7 @@ end
 words = []
 def long_planeteer_calls(words)
 
-   words.include? do |word|
-     if word.length > 4
-        true 
-      else
-        false 
-    end
+   words.include? 
   end
 end
 
