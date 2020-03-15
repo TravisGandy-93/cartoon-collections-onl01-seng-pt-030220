@@ -16,7 +16,7 @@ end
 
 ##words = []
 def long_planeteer_calls(words)
-  
+  words.
 end
 
 def find_the_cheese# code an argument here
