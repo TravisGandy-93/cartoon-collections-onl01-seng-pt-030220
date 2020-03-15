@@ -26,7 +26,7 @@ def long_planeteer_calls(words)
   else
     true 
   end
-  long_planeteer_calls
+  wordd
 end
 
 
