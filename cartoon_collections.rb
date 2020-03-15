@@ -21,10 +21,11 @@ end
 
 def find_the_cheese(dairy)
    cheese_types = ["cheddar", "gouda", "camembert"]
-  case dairy.include?(cheese_types)
+   cheese_types.each do |cheese| 
+     case dairy.include?(cheese)
     when false 
       puts "nil"
       when true
-       cheese_types
+       return cheese
     end
 end
