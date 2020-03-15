@@ -25,6 +25,6 @@ def find_the_cheese(dairy)
     when false 
       puts "nil"
       when true
-      puts cheese_types
+       cheese_types
     end
 end
