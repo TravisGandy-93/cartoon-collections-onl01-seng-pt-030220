@@ -16,7 +16,7 @@ end
 
 words = []
 def long_planeteer_calls(words)
-  
+  yield
   words.include?(i)
 end
 
