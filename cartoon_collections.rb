@@ -24,5 +24,5 @@ def find_the_cheese(dairy)
    if dairy.include?(cheese_types) = false
      return nil
    else
-     
+ end
 end
