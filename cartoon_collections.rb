@@ -18,7 +18,7 @@ words = []
 def long_planeteer_calls(words)
   
   i = "#{words}".length 
-   words.include?(4 > i)
+   words.include?(4)
 end
 
 
