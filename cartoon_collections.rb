@@ -24,7 +24,7 @@ def find_the_cheese(dairy)
    cheese_types.each do |cheese| 
      case dairy.include?(cheese)
     when false 
-      puts "nil"
+      return "nil"
       when true
        return cheese
     end
