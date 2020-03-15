@@ -21,9 +21,10 @@ end
 
 def find_the_cheese(dairy)
    cheese_types = ["cheddar", "gouda", "camembert"]
-   if dairy.include?(cheese_types) = false
-     return nil
-   else
- end
-end
+  case dairy.include?(cheese_types)
+    when false 
+      puts "nil"
+      when true
+      puts cheese_types
+    end
 end
