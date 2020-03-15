@@ -18,7 +18,6 @@ words = []
 def long_planeteer_calls(words)
   i = String.size > 4
   words.include?(i)
-  end
 end
 
 
