@@ -28,4 +28,5 @@ def find_the_cheese(dairy)
       when true
        return cheese
     end
+  end
 end
